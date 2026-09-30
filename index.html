@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#e786a3" />
+    <meta
+      name="description"
+      content="Website ucapan ulang tahun bertema chibi Maruko Chan."
+    />
+    <title>Selamat Ulang Tahun Menda!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background-pattern" aria-hidden="true"></div>
+    <div id="confettiRain" aria-hidden="true"></div>
+    <div id="confetti" aria-hidden="true"></div>
+
+    <!-- Ganti file ini dengan lagu kamu sendiri: assets/birthday-song.mp3 -->
+    <audio
+      id="bgMusic"
+      src="assets/birthday-song.mp3"
+      preload="auto"
+      loop
+      autoplay
+    ></audio>
+
+    <header class="hero" id="home">
+      <nav class="nav shell" aria-label="Navigasi">
+        <a class="brand" href="#home">OII ADA YANG ULTAH</a>
+      </nav>
+
+      <div class="hero-card shell reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">Hari spesial untuk orang spesial ✨</p>
+          <h1>Selamat Ulang Tahun,<br /><span>Menda</span>!</h1>
+          <p class="lead">
+            Semoga hari ini dipenuhi senyum, kebahagian dan cinta.
+          </p>
+        </div>
+
+        <div class="hero-art" aria-label="Ilustrasi chibi bertema ulang tahun">
+          <div class="sunburst"></div>
+          <div class="sticker sticker-star">★</div>
+          <div class="sticker sticker-heart">♥</div>
+          <div class="maruko-frame">
+            <img src="assets/gmbr3.jpeg" />
+          </div>
+          <div class="birthday-badge">
+            TODAY<br /><strong>YOUR DAY!</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-hint" aria-hidden="true">
+        <span>scroll pelan-pelan</span>
+        <span class="scroll-line"></span>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="message">
+        <div class="shell narrow reveal">
+          <div class="section-kicker">01 · A little letter</div>
+          <h2>Sepucuk pesan untukmu</h2>
+          <div class="letter-card">
+            <div class="letter-top">
+              <span>To: <strong>Menda</strong></span>
+              <span>♥</span>
+            </div>
+            <p>Haloo Menda!</p>
+            <p>
+              Hari ini adalah hari spesial untukmu. Meski aku tidak bisa
+              mengucapkan ini secara langsung di depanmu, tapi aku ingin
+              mengucapkan kalimat ini untukmu. Selamat ulang tahun ya! doaku dan
+              harapan terbaikku menyertaimu
+            </p>
+            <p>
+              Terima kasih ya sudah menjadi Menda yang selalu bertumbuh, Menda
+              yang selalu menjadi dirinya sendiri, Menda yang kuat dan hebat
+              dalam menjalani kehidupan yang penuh lika-liku, dan Menda yang
+              selalu bahagia dan gembira seperti arti nama tengahmu "Ria".
+            </p>
+            <p>
+              Sekali lagi, Selamat ulang tahun, semoga hari ini kamu dipenuhi
+              kebahagian!! God Bless You!
+            </p>
+            <p class="signature">Love,<br /><strong>Zhikri</strong></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section video-section" id="video">
+        <div class="shell narrow">
+          <div class="section-kicker reveal">02 · A little movie</div>
+          <div class="section-heading reveal">
+            <div>
+              <h2>Ada video ucapan spesial nih untuk kamuuu..</h2>
+            </div>
+          </div>
+
+          <div class="video-card reveal">
+            <div class="video-frame" id="videoFrame">
+              <video
+                id="birthdayVideo"
+                controls
+                playsinline
+                preload="metadata"
+                poster="assets/maruko-pattern.jpg"
+              >
+                <source src="assets/birthday-video.mp4" type="video/mp4" />
+                Browser kamu tidak mendukung video HTML5.
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section soft" id="story">
+        <div class="shell">
+          <div class="section-kicker reveal">03 · Your story arc</div>
+          <div class="section-heading reveal">
+            <div>
+              <h2>Kamu ingat gak sih...</h2>
+            </div>
+          </div>
+
+          <div class="timeline">
+            <article class="story-card reveal">
+              <div class="story-number">01</div>
+              <div class="story-content">
+                <span class="story-date">27 Mei 2026</span>
+                <h3>Pertama kali kamu kirim vt</h3>
+                <p>
+                  Ini kamu kirim vt untuk pertama kalinya. kayaknya kita abis
+                  mabar
+                </p>
+              </div>
+            </article>
+
+            <article class="story-card reverse reveal">
+              <div class="story-number">02</div>
+              <div class="story-content">
+                <span class="story-date">14 September 2026</span>
+                <h3>Hari pertama IMO 150</h3>
+                <p>Bang lu imo yhh???</p>
+              </div>
+            </article>
+
+            <article class="story-card reveal">
+              <div class="story-number">03</div>
+              <div class="story-content">
+                <span class="story-date">25 September 2026</span>
+                <h3>Kamu majuk besar</h3>
+                <p>
+                  Karena kebodohanku, kamu jadi majuk besar jirr.. susah bgt
+                  bujuknya
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="reasons">
+        <div class="shell">
+          <div class="section-kicker reveal">04 · Tiny reasons</div>
+          <div class="section-heading reveal">
+            <div>
+              <h2>Ada kartu apa ini?? coba buka</h2>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="reason-grid">
+            <button
+              class="reason-card reveal"
+              type="button"
+              data-reason="Udah jadi adek yang cantik, lucu, dan menggemaskan."
+            >
+              <span></span>
+              <strong>Makasih ya</strong>
+              <span>Tap untuk buka</span>
+            </button>
+            <button
+              class="reason-card reveal"
+              type="button"
+              data-reason="Udah berbagi cerita dan tawa.. hariku jadi selalu indah jirr"
+            >
+              <strong>Makasih juga</strong>
+              <span>Tap untuk buka</span>
+            </button>
+            <button
+              class="reason-card reveal"
+              type="button"
+              data-reason="Ilysm"
+            >
+              <strong>I</strong>
+              <span>Tap untuk buka</span>
+            </button>
+            <button
+              class="reason-card reveal"
+              type="button"
+              data-reason="Aduh blunderr lagiii"
+            >
+              <strong>A</strong>
+              <span>Tap untuk buka</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section soft" id="gallery">
+        <div class="shell">
+          <div class="section-kicker reveal">05 · Gallery</div>
+          <div class="section-heading reveal">
+            <div>
+              <h2>Foto-foto lucu</h2>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <figure class="gallery-item tall reveal">
+              <div class="photo-placeholder">
+                <img src="assets/gmbr1.jpeg" alt="" />
+              </div>
+              <figcaption>absen tiktok pertama</figcaption>
+            </figure>
+            <figure class="gallery-item tall reveal">
+              <div class="photo-placeholder">
+                <img src="assets/gmbr5.jpeg" alt="" />
+              </div>
+            </figure>
+            <figure class="gallery-item tall reveal">
+              <div class="photo-placeholder yellow">
+                <img src="assets/gmbr4.jpeg" alt="" />
+              </div>
+            </figure>
+            <figure class="gallery-item tall reveal">
+              <div class="photo-placeholder yellow">
+                <img src="assets/gmbr2.jpeg" alt="" />
+              </div>
+            </figure>
+            <figure class="gallery-item wide reveal">
+              <div class="photo-placeholder mint">
+                <img src="assets/gmbr6.jpeg" alt="" />
+              </div>
+              <figcaption>oii coklat</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section countdown-section" id="wish">
+        <div class="shell narrow reveal">
+          <div class="cake">🎂</div>
+          <div class="section-kicker">06 · Make a wish</div>
+          <h2>Hitung mundur menuju 24 Tahun</h2>
+          <p class="countdown-subtitle">
+            <strong>01 Oktober 2026, 00:00</strong>
+          </p>
+          <div class="countdown" id="countdown" aria-live="polite">
+            <div><strong id="days">00</strong><span>hari</span></div>
+            <div><strong id="hours">00</strong><span>jam</span></div>
+            <div><strong id="minutes">00</strong><span>menit</span></div>
+            <div><strong id="seconds">00</strong><span>detik</span></div>
+          </div>
+          <button class="wish-btn" id="wishBtn" type="button">
+            Tiup lilinnya ✨
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="shell footer-inner">
+        <span>Dibuat dengan ♡ untuk Menda</span>
+        <button type="button" class="top-btn" id="topBtn">
+          Kembali ke atas ↑
+        </button>
+      </div>
+    </footer>
+
+    <div class="modal" id="reasonModal" aria-hidden="true">
+      <div class="modal-backdrop" data-close="true"></div>
+      <div
+        class="modal-card"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="reasonTitle"
+      >
+        <button
+          class="modal-close"
+          id="modalClose"
+          type="button"
+          aria-label="Tutup"
+        >
+          ×
+        </button>
+        <div class="modal-burst">✦</div>
+        <h2 id="reasonTitle">Karena kamu memang spesial.</h2>
+        <p id="reasonText"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
